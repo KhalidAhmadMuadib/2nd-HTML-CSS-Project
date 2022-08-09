@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:paleturquoise;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+header span{
+    color: aqua;
+}
+nav ul li {
+     display: inline-block;
+     padding: 20px;
+     list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.res{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    background-color: yellowgreen;
+    color: red;
+    font-size: 30px;
+    transition: 1.5s;
+    border-radius: 30px;
+}
+img{
+    width: 380px;
+    height: 250px;
+    border-radius: 100%;
+    padding: 10px;
+}
+main{
+    margin-top: 30px;
+}
+main h1{
+    text-align: center;
+    color:mediumblue;
+}
+.pizza{
+    border: 3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color:orange;
+}
+.chiken{
+    border:3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+.barbaque{
+    border:3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+.burger{
+    border:3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+.drink{
+    border:3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+.fruit{
+    border:3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+.frees{
+    border:3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+.coffee{
+    border:3px solid yellow;
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+.foods{
+    
+    width: 100%;
+    height: 1000px;
+    border:4px dotted yellowgreen;
+    background-color: steelblue;
+    display:flex;
+    flex-direction: /*row-reverse column-reverse; row column*/row;
+    flex-wrap: wrap /* wrap-reverse nowrap*/;
+    justify-content:  center /*center flex-end space-around space-between*/;
+    align-content:flex-start/*center flex-end space-between space-around */;
+   align-items:flex-start /*center flex-end  stretch baseline*/ ;
+}

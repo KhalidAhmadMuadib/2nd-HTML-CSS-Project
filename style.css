@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(0, 0, 0, 0.5) url('bgimage.jpg') center fixed;
+    background-size: cover;
+    background-blend-mode:darken;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+header span{
+    color: aqua;
+}
+nav ul li {
+     display: inline-block;
+     padding: 20px;
+     list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.res{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    background-color: yellowgreen;
+    color: red;
+    font-size: 30px;
+    transition: 1.5s;
+    border-radius: 30px;
+}
+main{
+    position: absolute;
+    top: 45%;
+    left: 33%;
+    color: white;
+}
+main h2{
+    margin-right: 30px;
+    text-align: center;
+}
+main h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+main p{
+    text-align: center;
+}
+.srcbar{
+    position: absolute;
+    top: 63%;
+    left: 40%;
+}
+input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 40px;
+}
+button{
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    padding: 20px;
+    background-color: green;
+    color: aqua;
+    width: 120px;
+    border-radius: 40px;
+}
+button:hover{
+    background-color: black;
+    color: yellow;
+}
